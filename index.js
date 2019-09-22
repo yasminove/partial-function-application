@@ -3,3 +3,7 @@ function applicator(fn, val){
     fn(val);
   }
 }
+
+function speak(str){
+  console.log(str);
+}
