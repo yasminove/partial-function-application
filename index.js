@@ -7,3 +7,7 @@ function applicator(fn, val){
 function speak(str){
   console.log(str);
 }
+
+const sayHi = applicator(speak, 'Hi')
+
+sayHi();
