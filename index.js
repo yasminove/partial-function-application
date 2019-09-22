@@ -12,6 +12,10 @@ const sayHi = applicator(speak, 'Hi')
 
 const sayGoodBye = applicator(speak, 'Hello')
 
+const sayGoodMorninig = applicator(speak, 'Good Morninig')
+
 sayHi();
 
 sayGoodBye();
+
+sayGoodMorninig();
