@@ -10,4 +10,8 @@ function speak(str){
 
 const sayHi = applicator(speak, 'Hi')
 
+const sayGoodBye = applicator(speak, 'Hello')
+
 sayHi();
+
+sayGoodBye();
